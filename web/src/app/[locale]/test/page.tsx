@@ -1,5 +1,5 @@
 import { getItems, getInfo } from '@bigfive-org/questions';
-import { Survey } from './survey';
+import { Survey } from '@/components/bigfive/survey';
 import { useTranslations } from 'next-intl';
 import { saveTest } from '@/actions';
 import { unstable_setRequestLocale } from 'next-intl/server';

@@ -2,7 +2,7 @@ import { Report, getTestResult } from '@/actions';
 import { Snippet } from '@nextui-org/snippet';
 import { useTranslations } from 'next-intl';
 import { title } from '@/components/primitives';
-import { DomainPage } from './domain';
+import { DomainPage } from '@/components/bigfive/domain-report';
 import { Domain } from '@bigfive-org/results';
 import { getTranslations } from 'next-intl/server';
 import { BarChart } from '@/components/bar-chart';
@@ -10,8 +10,8 @@ import { Link } from '@/navigation';
 import { ReportLanguageSwitch } from './report-language-switch';
 import { Alert } from '@/components/alert';
 import { supportEmail } from '@/config/site';
-import ShareBar from '@/components/share-bar';
-import { DomainTabs } from './domain-tabs';
+import ShareBar from '@/components/bigfive/share-bar';
+import { DomainTabs } from '@/components/bigfive/domain-tabs';
 import { Chip } from '@nextui-org/react';
 
 export async function generateMetadata({

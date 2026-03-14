@@ -40,7 +40,7 @@ const spanish = {
       },
       translated: {
         title: 'Traducido',
-        text: 'Traducido a más de 20 idiomas. Puedes ayudar <a href="https://b5.translations.alheimsins.net/" rel="noreferrer" target="blank">aquí</a>!'
+        text: 'Traducido al inglés y al español.'
       }
     },
     description: {
@@ -48,9 +48,7 @@ const spanish = {
       subtop: 'el',
       subtop2:
         ' es el modelo psicológico más confiable y científicamente validado para medir la personalidad.',
-      reference: `Las pruebas y la evaluación de este sitio se obtienen de
-<a href="http://ipip.ori.org" rel="noopener" target="_blank">ipip.ori.org</a>,
-el inventario es de<i>Johnson's (2014) IPIP NEO-PI-R de 120 elementos</i>.`,
+      reference: `El inventario es de <i>Johnson's (2014) IPIP NEO-PI-R de 120 elementos</i>.`,
       info: 'La siguiente prueba contiene 120 preguntas que estimamos le tomará unos 10 minutos completar.',
       result:
         'Una vez que haya completado la prueba, recibirá un informe de personalidad detallado en los siguientes dominios:',

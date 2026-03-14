@@ -30,11 +30,11 @@ export default function AboutPage({ params: { locale } }: Props) {
       </div>
       <div className='mt-2 text-medium lg:mt-4 lg:text-large'>
         <p>
-          Welcome to bigfive-test.com, your premier destination for exploring
-          personality traits using the scientifically acclaimed Big Five model.
-          Our free, open-source test offers detailed insights into the five key
-          dimensions of personality: Openness, Conscientiousness, Extraversion,
-          Agreeableness, and Neuroticism.
+          Welcome to the Big Five Personality Test, your premier destination for
+          exploring personality traits using the scientifically acclaimed Big
+          Five model. Our free, open-source test offers detailed insights into
+          the five key dimensions of personality: Openness,
+          Conscientiousness, Extraversion, Agreeableness, and Neuroticism.
         </p>
         <br />
         <p>
@@ -44,8 +44,8 @@ export default function AboutPage({ params: { locale } }: Props) {
         <p>
           Developed with precision and accessibility in mind, our test helps you
           understand yourself better and foster personal growth. Embrace the
-          journey of self-discovery with bigfive-test.com, where psychological
-          insights meet user-friendly technology.
+          journey of self-discovery, where psychological insights meet
+          user-friendly technology.
         </p>
         <br />
         <p>
@@ -53,8 +53,7 @@ export default function AboutPage({ params: { locale } }: Props) {
           <Link href='/faq' className='underline'>
             FAQ
           </Link>{' '}
-          first. If you can&apos;t find an answer there, feel free to contact us
-          at bigfive-test@rubynor.com.
+          first.
         </p>
       </div>
       <section>

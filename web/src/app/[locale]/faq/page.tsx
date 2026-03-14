@@ -7,7 +7,7 @@ export default function FaqPage() {
     {
       question: 'I got an error on this website',
       answer:
-        'Submit an issue at GitHub or send us an e-mail at bigfive-test@rubynor.com'
+        'Please let us know if you find any errors.'
     },
     {
       question: 'Can I use the code for this website for Commercial Purposes?',
@@ -24,16 +24,6 @@ export default function FaqPage() {
         'Try to print the results-page from your browser or save it as a PDF-document and print that instead.'
     },
     {
-      question: 'I want to translate the questions to my language',
-      answer:
-        "Use this website to translate the questions. Select the language you want to translate from.Translate the questions and click 'generate'. This will generate a file and download it to your computer. Send the downloaded file to bigfive- test@rubynor.com and tell us which language you have translated. If you want to translate it directly on github instead, you can follow the description here."
-    },
-    {
-      question: 'I want to translate the result text to my language',
-      answer:
-        'If you want to translate the result text you need to follow the description here.'
-    },
-    {
       question:
         'Where can I find more information about the questions and the evaluation?',
       answer: 'See the IPIP Website for more information.'
@@ -41,11 +31,7 @@ export default function FaqPage() {
     {
       question: 'Where can I find the questions?',
       answer:
-        'All questions and translations are in this repo in the data folder. The questions and scoring is taken from ipip.ori.org'
-    },
-    {
-      question: 'Where can I find the code?',
-      answer: 'The code is found here at GitHub.'
+        'All questions and translations are based on public domain data.'
     }
   ];
   return (
