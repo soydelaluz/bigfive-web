@@ -1,6 +1,6 @@
 import { title } from '@/components/primitives';
 import { useTranslations } from 'next-intl';
-import { ComparePeople } from './compare-people';
+import { ComparePeople } from '@/components/bigfive/compare-people';
 import { unstable_setRequestLocale } from 'next-intl/server';
 import { Suspense } from 'react';
 

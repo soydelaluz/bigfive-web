@@ -4,7 +4,7 @@ export type SiteConfig = typeof siteConfig;
 
 export const basePath = 'https://bigfive-test.com';
 
-export const supportEmail = 'bigfive-test@rubynor.com';
+export const supportEmail = '';
 
 export type Language = {
   code: string;
@@ -15,39 +15,11 @@ export type Language = {
 
 export const languages: Language[] = [
   { code: 'en', name: 'English', countryCode: 'us', map: ['en-GB'] },
-  { code: 'ar', name: 'Arabic', map: ['ar-sa'] },
-  { code: 'de', name: 'German', countryCode: 'de', map: ['de-DE'] },
   {
     code: 'es',
     name: 'Spanish',
     countryCode: 'es',
     map: ['es-ES', 'es-US', 'es-MX', 'ca']
-  },
-  { code: 'fr', name: 'French', countryCode: 'fr', map: ['fr-FR', 'fr-CA'] },
-  { code: 'id', name: 'Indonesian', countryCode: 'id' },
-  { code: 'it', name: 'Italian', countryCode: 'it', map: ['it-IT'] },
-  { code: 'no', name: 'Norwegian', countryCode: 'no', map: ['nb', 'nn'] },
-  {
-    code: 'pt',
-    name: 'Portuguese',
-    countryCode: 'pt',
-    map: ['pt-BR', 'pt-PT']
-  },
-  { code: 'sv', name: 'Swedish', countryCode: 'se' },
-  { code: 'uk', name: 'Ukrainian', countryCode: 'ua' },
-  { code: 'da', name: 'Danish', countryCode: 'dk' },
-  { code: 'fi', name: 'Finnish', countryCode: 'fi' },
-  { code: 'hi', name: 'Hindi', countryCode: 'in' },
-  { code: 'is', name: 'Icelandic', countryCode: 'is' },
-  { code: 'ja', name: 'Japanese', countryCode: 'jp' },
-  { code: 'pl', name: 'Polish', countryCode: 'pl' },
-  { code: 'ru', name: 'Russian', countryCode: 'ru' },
-  { code: 'th', name: 'Thai', countryCode: 'th' },
-  {
-    code: 'zh',
-    name: 'Chinese',
-    countryCode: 'cn',
-    map: ['zh-CN', 'zh-Hans', 'zh-Hant']
   }
 ];
 
@@ -133,10 +105,10 @@ export const siteConfig = {
     }
   ],
   links: {
-    github: 'https://github.com/rubynor/bigfive-web',
-    twitter: 'https://twitter.com/rubynor',
-    linkedIn: 'https://www.linkedin.com/company/rubynor-as/',
-    facebook: 'https://www.facebook.com/rubynorno'
+    github: '',
+    twitter: '',
+    linkedIn: '',
+    facebook: ''
   }
 };
 

@@ -56,8 +56,7 @@ export default function Home({ params: { locale } }: Props) {
     {
       title: t('cards.translated.title'),
       description: t.raw('cards.translated.text'),
-      icon: LanguageIcon({}),
-      href: 'https://b5.translations.alheimsins.net/'
+      icon: LanguageIcon({})
     }
   ];
 
@@ -102,22 +101,6 @@ export default function Home({ params: { locale } }: Props) {
                 )}
               >
                 {t('call_to_action')} <ArrowRightIcon />
-              </Link>
-              <Link
-                isExternal
-                className={clsx(
-                  buttonStyles({
-                    variant: 'bordered',
-                    radius: 'full',
-                    size: 'lg',
-                    fullWidth: true
-                  }),
-                  'md:w-auto'
-                )}
-                href={siteConfig.links.github}
-              >
-                <GithubIcon size={20} />
-                GitHub
               </Link>
             </div>
           </div>

@@ -41,7 +41,7 @@ const english = {
       },
       translated: {
         title: 'Translated',
-        text: 'Translated to over 20 languages. Help out on <a href="https://b5.translations.alheimsins.net/" rel="noreferrer" target="blank">this translation page</a>!'
+        text: 'Translated to English and Spanish.'
       }
     },
     description: {
@@ -49,9 +49,7 @@ const english = {
       subtop: 'The',
       subtop2:
         ' is the most scientifically validated and reliable psychological model to measure personality.',
-      reference: `Tests and evaluation for this site is gathered from
-<a href="http://ipip.ori.org" rel="noopener" target="_blank">ipip.ori.org</a>,
-inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
+      reference: `Inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
       info: 'The following test contains 120 questions which is estimated to take you about 10 minutes to complete.',
       result:
         'After you have completed the test you will receive a detailed personality report in the following domains:',
